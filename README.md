@@ -4,6 +4,7 @@ Inno Setup 简体中文翻译
 ## 食用方法 ##
 
 将**ChineseSimplified.isl**放到**Inno Setup安装目录**下的"Languages"文件夹里面  
+然后在脚本的多语言字段添加下面一行即可
 
 ``` ini
 [Languages]
