@@ -5,12 +5,10 @@ Inno Setup 简体中文翻译
 
 将**ChineseSimplified.isl**放到**Inno Setup安装目录**下的"Languages"文件夹里面  
 
-``` isl
+``` ini
 [Languages]
 Name: "sc"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
 ```
-
----
 
 **注意：此翻译版本仅支持 Inno Setup 6.0.0+ 的软件**
 
