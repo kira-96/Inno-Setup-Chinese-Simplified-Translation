@@ -3,6 +3,7 @@
 ; Maintained by Zhenghan Yang
 ; Email: 847320916@QQ.com
 ; Translation based on network resource
+; The latest Translation is on https://github.com/KKKKKKi/Inno-Setup-Chinese-Simplified-Translation
 ;
 
 [LangOptions]
