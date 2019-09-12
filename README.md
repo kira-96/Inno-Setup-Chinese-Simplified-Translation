@@ -1,12 +1,17 @@
 # Inno Setup Chinese Simplified Translation #
 Inno Setup 简体中文翻译
 
+[![GitHub issues](https://img.shields.io/github/issues/kira-96/Inno-Setup-Chinese-Simplified-Translation)](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/issues)
+[![GitHub forks](https://img.shields.io/github/forks/kira-96/Inno-Setup-Chinese-Simplified-Translation)](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/network)
+[![GitHub stars](https://img.shields.io/github/stars/kira-96/Inno-Setup-Chinese-Simplified-Translation)](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/stargazers)
+[![GitHub license](https://img.shields.io/github/license/kira-96/Inno-Setup-Chinese-Simplified-Translation)](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
+
 ## 食用方法 ##
 
 将**ChineseSimplified.isl**放到**Inno Setup安装目录**下的"Languages"文件夹里面  
 然后在脚本的多语言字段添加下面一行即可
 
-``` ini
+``` yaml
 [Languages]
 Name: "sc"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
 ```

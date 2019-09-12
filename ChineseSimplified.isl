@@ -63,7 +63,7 @@ PowerUserPrivilegesRequired=在安装这个程序时您必须以管理员身份�
 SetupAppRunningError=安装程序发现 %1 当前正在运行。%n%n请先关闭所有运行的窗口，然后单击“确定”继续，或按“取消”退出。
 UninstallAppRunningError=卸载程序发现 %1 当前正在运行。%n%n请先关闭所有运行的窗口，然后单击“确定”继续，或按“取消”退出。
 
-; *** Startup questions
+; *** 启动问题
 PrivilegesRequiredOverrideTitle=选择安装程序模式
 PrivilegesRequiredOverrideInstruction=选择安装模式
 PrivilegesRequiredOverrideText1=%1 可以为所有用户安装(需要管理员权限)，或仅为您安装。
@@ -103,7 +103,7 @@ ButtonNewFolder=新建文件夹(&M)
 
 ; *** “选择语言”对话框消息
 SelectLanguageTitle=选择安装语言
-SelectLanguageLabel=选择安装时要使用的语言:
+SelectLanguageLabel=选择安装时要使用的语言。
 
 ; *** 公共向导文字
 ClickNext=单击“下一步”继续，或单击“取消”退出安装程序。
@@ -302,7 +302,7 @@ ErrorRegisterServer=不能注册 DLL/OCX: %1
 ErrorRegSvr32Failed=RegSvr32 失败；退出代码 %1
 ErrorRegisterTypeLib=不能注册类型库: %1
 
-; *** Uninstall display name markings
+; *** 卸载显示名字标记
 ; used for example as 'My Program (32-bit)'
 UninstallDisplayNameMark=%1 (%2)
 ; used for example as 'My Program (32-bit, All users)'
