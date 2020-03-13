@@ -18,4 +18,5 @@ Name: "sc"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
 
 **注意：此翻译版本仅支持 Inno Setup 6.0.3+ 的软件**
 
-查看6.0.3+和6.0.0+的[区别](https://github.com/jrsoftware/issrc/commit/dfdf02aef168be458b64e77afb20ae53a5b4f2ec)
+查看6.0.3+和6.0.0+的[区别](https://github.com/jrsoftware/issrc/commit/dfdf02aef168be458b64e77afb20ae53a5b4f2ec)  
+6.0.4版本没有变更翻译内容。
