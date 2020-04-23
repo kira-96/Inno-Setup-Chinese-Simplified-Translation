@@ -7,9 +7,11 @@
 ;
 
 [LangOptions]
-; The following three entries are very important. Be sure to read and 
+; The following three entries are very important. Be sure to read and
 ; understand the '[LangOptions] section' topic in the help file.
 LanguageName=简体中文
+; About LanguageID, to reference link:
+; https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c
 ; If Language Name display incorrect, uncomment next line
 ; LanguageName=<7B80><4F53><4E2D><6587>
 LanguageID=$0804
@@ -362,4 +364,3 @@ AssocingFileExtension=正在将 %2 文件扩展名与 %1 建立关联...
 AutoStartProgramGroupDescription=启动组:
 AutoStartProgram=自动启动 %1
 AddonHostProgramNotFound=%1无法找到您所选择的文件夹。%n%n您想要继续吗？
-
