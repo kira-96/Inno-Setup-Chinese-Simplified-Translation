@@ -8,13 +8,29 @@ Inno Setup 简体中文翻译
 
 ## 食用方法 ##
 
-将**ChineseSimplified.isl**放到**Inno Setup安装目录**下的"Languages"文件夹里面  
-然后在脚本的多语言字段添加下面一行即可
+- **Step 1**
 
-``` yaml
-[Languages]
-Name: "sc"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
-```
+  将**ChineseSimplified.isl**放到**Inno Setup安装目录**下的"Languages"文件夹里面
+
+- **Step 2**
+
+  如果你是通过新建脚本的方式创建脚本，在**Languages**选项勾选**Chinese Simplified**即可：
+  ![wizard](Wizard.png)
+
+  如果你需要在现有脚本中添加简体中文支持  
+  直接在你的脚本的`[Languages]`部分添加下面一行即可
+
+  ``` yaml
+  Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
+  ```
+
+  示例：
+  
+  ``` yaml
+  [Languages]
+  Name: "english"; MessagesFile: "compiler:Default.isl"
+  Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
+  ```
 
 **注意：此翻译版本仅支持 Inno Setup 6.0.3+ 的软件**
 
