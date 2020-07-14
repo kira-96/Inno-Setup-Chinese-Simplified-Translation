@@ -1,4 +1,4 @@
-﻿; *** Inno Setup version 6.0.3+ Chinese Simplified messages ***
+﻿; *** Inno Setup version 6.1.0+ Chinese Simplified messages ***
 ;
 ; Maintained by Zhenghan Yang
 ; Email: 847320916@QQ.com
@@ -294,8 +294,18 @@ ExistingFileReadOnly2=无法替换现有文件，因为它是只读的。
 ExistingFileReadOnlyRetry=移除只读属性并重试(&R)
 ExistingFileReadOnlyKeepExisting=保留现有文件(&K)
 ErrorReadingExistingDest=尝试读取现有文件时发生一个错误:
+FileExistsSelectAction=选择操作
 FileExists=文件已经存在。%n%n您想要安装程序覆盖它吗？
-ExistingFileNewer=现有的文件新与安装程序要安装的文件。推荐您保留现有文件。%n%n您想要保留现有的文件吗？
+FileExists2=文件已经存在。
+FileExistsOverwriteExisting=覆盖已经存在的文件(&O)
+FileExistsKeepExisting=保留现有的文件(&K)
+FileExistsOverwriteOrKeepAll=为所有的冲突文件执行此操作(&D)
+ExistingFileNewerSelectAction=选择操作
+ExistingFileNewer=现有的文件比安装程序将要安装的文件更新。推荐您保留现有文件。%n%n您想要保留现有的文件吗？
+ExistingFileNewer2=现有的文件比安装程序将要安装的文件更新。
+ExistingFileNewerOverwriteExisting=覆盖已经存在的文件(&O)
+ExistingFileNewerKeepExisting=保留现有的文件 (推荐)(&K)
+ExistingFileNewerOverwriteOrKeepAll=为所有的冲突文件执行此操作(&D)
 ErrorChangingAttr=尝试改变下列现有的文件的属性时发生一个错误:
 ErrorCreatingTemp=尝试在目标目录创建文件时发生一个错误:
 ErrorReadingSource=尝试读取下列源文件时发生一个错误:
