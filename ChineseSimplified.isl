@@ -212,6 +212,18 @@ ReadyMemoComponents=选定组件:
 ReadyMemoGroup=开始菜单文件夹:
 ReadyMemoTasks=附加任务:
 
+; *** TDownloadWizardPage wizard page and DownloadTemporaryFile
+DownloadingLabel=正在下载附加文件...
+ButtonStopDownload=停止下载（&S）
+StopDownload=您确定要停止下载吗？
+ErrorDownloadAborted=下载已中止
+ErrorDownloadFailed=下载失败：%d %s
+ErrorDownloadSizeFailed=获取下载大小失败：%d %s
+ErrorFileHash1=校验文件哈希失败：%s
+ErrorFileHash2=无效的文件哈希：预期 %s，实际 %s
+ErrorProgress=无效的进度: %d of %d
+ErrorFileSize=文件大小无效：预期 %d，实际 %d
+
 ; *** “正在准备安装”向导页
 WizardPreparing=正在准备安装
 PreparingDesc=安装程序正在准备安装 [name] 到您的电脑中。
@@ -295,13 +307,11 @@ ExistingFileReadOnlyRetry=移除只读属性并重试(&R)
 ExistingFileReadOnlyKeepExisting=保留现有文件(&K)
 ErrorReadingExistingDest=尝试读取现有文件时发生一个错误:
 FileExistsSelectAction=选择操作
-FileExists=文件已经存在。%n%n您想要安装程序覆盖它吗？
 FileExists2=文件已经存在。
 FileExistsOverwriteExisting=覆盖已经存在的文件(&O)
 FileExistsKeepExisting=保留现有的文件(&K)
 FileExistsOverwriteOrKeepAll=为所有的冲突文件执行此操作(&D)
 ExistingFileNewerSelectAction=选择操作
-ExistingFileNewer=现有的文件比安装程序将要安装的文件更新。推荐您保留现有文件。%n%n您想要保留现有的文件吗？
 ExistingFileNewer2=现有的文件比安装程序将要安装的文件更新。
 ExistingFileNewerOverwriteExisting=覆盖已经存在的文件(&O)
 ExistingFileNewerKeepExisting=保留现有的文件 (推荐)(&K)
