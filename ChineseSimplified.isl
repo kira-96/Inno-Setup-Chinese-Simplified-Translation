@@ -122,7 +122,7 @@ WelcomeLabel2=现在将安装 [name/ver] 到您的电脑中。%n%n推荐您在�
 WizardPassword=密码
 PasswordLabel1=这个安装程序有密码保护。
 PasswordLabel3=请输入密码，然后单击“下一步”继续。密码区分大小写。
-PasswordEditLabel=密码(&P):
+PasswordEditLabel=密码(&P)：
 IncorrectPassword=您输入的密码不正确，请重试。
 
 ; *** “许可协议”向导页
@@ -143,12 +143,12 @@ InfoAfterClickLabel=如果您想继续安装，单击“下一步”。
 ; *** “用户信息”向导页
 WizardUserInfo=用户信息
 UserInfoDesc=请输入您的信息。
-UserInfoName=用户名(&U):
-UserInfoOrg=组织(&O):
-UserInfoSerial=序列号(&S):
-UserInfoNameRequired=您必须输入名字。
+UserInfoName=用户名(&U)：
+UserInfoOrg=组织(&O)：
+UserInfoSerial=序列号(&S)：
+UserInfoNameRequired=您必须输入用户名。
 
-; *** “选择目标目录”向导面
+; *** “选择目标目录”向导页
 WizardSelectDir=选择目标位置
 SelectDirDesc=您想将 [name] 安装在什么地方？
 SelectDirLabel3=安装程序将安装 [name] 到下列文件夹中。
@@ -197,22 +197,23 @@ SelectStartMenuFolderBrowseLabel=单击“下一步”继续。如果您想选�
 MustEnterGroupName=您必须输入一个文件夹名。
 GroupNameTooLong=文件夹名或路径太长。
 InvalidGroupName=文件夹名是无效的。
-BadGroupName=文件夹名不能包含下列任何字符:%n%n%1
+BadGroupName=文件夹名不能包含下列任何字符：%n%n%1
 NoProgramGroupCheck2=不创建开始菜单文件夹(&D)
 
 ; *** “准备安装”向导页
 WizardReady=准备安装
 ReadyLabel1=安装程序现在准备开始安装 [name] 到您的电脑中。
 ReadyLabel2a=单击“安装”继续此安装程序。如果您想要回顾或改变设置，请单击“上一步”。
-ReadyLabel2b=单击“安装”继续此安装程序?
-ReadyMemoUserInfo=用户信息:
-ReadyMemoDir=目标位置:
-ReadyMemoType=安装类型:
-ReadyMemoComponents=选定组件:
-ReadyMemoGroup=开始菜单文件夹:
-ReadyMemoTasks=附加任务:
+ReadyLabel2b=单击“安装”继续此安装程序？
+ReadyMemoUserInfo=用户信息：
+ReadyMemoDir=目标位置：
+ReadyMemoType=安装类型：
+ReadyMemoComponents=选定组件：
+ReadyMemoGroup=开始菜单文件夹：
+ReadyMemoTasks=附加任务：
 
 ; *** TDownloadWizardPage wizard page and DownloadTemporaryFile
+; *** “下载向导”向导页和临时下载文件
 DownloadingLabel=正在下载附加文件...
 ButtonStopDownload=停止下载（&S）
 StopDownload=您确定要停止下载吗？
@@ -305,7 +306,7 @@ SourceDoesntExist=源文件“%1”不存在
 ExistingFileReadOnly2=无法替换现有文件，因为它是只读的。
 ExistingFileReadOnlyRetry=移除只读属性并重试(&R)
 ExistingFileReadOnlyKeepExisting=保留现有文件(&K)
-ErrorReadingExistingDest=尝试读取现有文件时发生一个错误:
+ErrorReadingExistingDest=尝试读取现有文件时发生一个错误：
 FileExistsSelectAction=选择操作
 FileExists2=文件已经存在。
 FileExistsOverwriteExisting=覆盖已经存在的文件(&O)
@@ -316,16 +317,16 @@ ExistingFileNewer2=现有的文件比安装程序将要安装的文件更新。
 ExistingFileNewerOverwriteExisting=覆盖已经存在的文件(&O)
 ExistingFileNewerKeepExisting=保留现有的文件 (推荐)(&K)
 ExistingFileNewerOverwriteOrKeepAll=为所有的冲突文件执行此操作(&D)
-ErrorChangingAttr=尝试改变下列现有的文件的属性时发生一个错误:
-ErrorCreatingTemp=尝试在目标目录创建文件时发生一个错误:
-ErrorReadingSource=尝试读取下列源文件时发生一个错误:
-ErrorCopying=尝试复制下列文件时发生一个错误:
-ErrorReplacingExistingFile=尝试替换现有的文件时发生错误:
-ErrorRestartReplace=重启电脑后替换文件失败:
-ErrorRenamingTemp=尝试重新命名以下目标目录中的一个文件时发生错误:
-ErrorRegisterServer=不能注册 DLL/OCX: %1
+ErrorChangingAttr=尝试改变下列现有的文件的属性时发生一个错误：
+ErrorCreatingTemp=尝试在目标目录创建文件时发生一个错误：
+ErrorReadingSource=尝试读取下列源文件时发生一个错误：
+ErrorCopying=尝试复制下列文件时发生一个错误：
+ErrorReplacingExistingFile=尝试替换现有的文件时发生错误：
+ErrorRestartReplace=重启电脑后替换文件失败：
+ErrorRenamingTemp=尝试重新命名以下目标目录中的一个文件时发生错误：
+ErrorRegisterServer=无法注册 DLL/OCX：%1
 ErrorRegSvr32Failed=RegSvr32 失败；退出代码 %1
-ErrorRegisterTypeLib=不能注册类型库: %1
+ErrorRegisterTypeLib=无法注册类型库：%1
 
 ; *** 卸载显示名字标记
 ; used for example as 'My Program (32-bit)'
