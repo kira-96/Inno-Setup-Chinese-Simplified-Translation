@@ -48,16 +48,16 @@ HelpTextNote=
 
 ; *** 启动错误消息
 LastErrorMessage=%1.%n%n错误 %2: %3
-SetupFileMissing=安装目录中的文件 %1 丢失。请修正这个问题或获取一个新的程序副本。
-SetupFileCorrupt=安装文件已损坏。请获取一个新的程序副本。
+SetupFileMissing=安装目录中的文件 %1 丢失。请修正这个问题或者获取程序的新副本。
+SetupFileCorrupt=安装文件已损坏。请获取程序的新副本。
 SetupFileCorruptOrWrongVer=安装文件已损坏，或是与这个安装程序的版本不兼容。请修正这个问题或获取新的程序副本。
 InvalidParameter=无效的命令行参数：%n%n%1
 SetupAlreadyRunning=安装程序正在运行。
-WindowsVersionNotSupported=这个程序不支持该版本的计算机运行。
-WindowsServicePackRequired=这个程序要求%1服务包%1或更高。
+WindowsVersionNotSupported=这个程序不支持当前计算机运行的Windows版本。
+WindowsServicePackRequired=这个程序需要 %1 服务包 %2 或更高。
 NotOnThisPlatform=这个程序将不能运行于 %1。
 OnlyOnThisPlatform=这个程序必须运行于 %1。
-OnlyOnTheseArchitectures=这个程序只能在为下列处理器结构设计的 Windows 版本中进行安装：%n%n%1
+OnlyOnTheseArchitectures=这个程序只能在为下列处理器结构设计的Windows版本中进行安装：%n%n%1
 WinVersionTooLowError=这个程序需要 %1 版本 %2 或更高。
 WinVersionTooHighError=这个程序不能安装于 %1 版本 %2 或更高。
 AdminPrivilegesRequired=在安装这个程序时您必须以管理员身份登录。
@@ -71,9 +71,9 @@ PrivilegesRequiredOverrideInstruction=选择安装模式
 PrivilegesRequiredOverrideText1=%1 可以为所有用户安装(需要管理员权限)，或仅为您安装。
 PrivilegesRequiredOverrideText2=%1 只能为您安装，或为所有用户安装(需要管理员权限)。
 PrivilegesRequiredOverrideAllUsers=为所有用户安装(&A)
-PrivilegesRequiredOverrideAllUsersRecommended=为所有用户安装(建议选项)(&A)
+PrivilegesRequiredOverrideAllUsersRecommended=为所有用户安装(&A) (建议选项)
 PrivilegesRequiredOverrideCurrentUser=只为我安装(&M)
-PrivilegesRequiredOverrideCurrentUserRecommended=只为我安装(建议选项)(&M)
+PrivilegesRequiredOverrideCurrentUserRecommended=只为我安装(&M) (建议选项)
 
 ; *** 其它错误
 ErrorCreatingDir=安装程序不能创建目录“%1”。
@@ -81,7 +81,7 @@ ErrorTooManyFilesInDir=不能在目录“%1”中创建文件，因为里面的�
 
 ; *** 安装程序公共消息
 ExitSetupTitle=退出安装程序
-ExitSetupMessage=安装程序未完成安装。如果您现在退出，您的程序将不能安装。%n%n您可以以后再运行安装程序完成安装。%n%n退出安装程序吗？
+ExitSetupMessage=安装程序还未完成安装。如果您现在退出，程序将不能安装。%n%n您可以以后再运行安装程序完成安装。%n%n现在退出安装程序吗？
 AboutSetupMenuItem=关于安装程序(&A)...
 AboutSetupTitle=关于安装程序
 AboutSetupMessage=%1 版本 %2%n%3%n%n%1 主页：%n%4
@@ -123,7 +123,7 @@ WizardPassword=密码
 PasswordLabel1=这个安装程序有密码保护。
 PasswordLabel3=请输入密码，然后点击“下一步”继续。密码区分大小写。
 PasswordEditLabel=密码(&P)：
-IncorrectPassword=您输入的密码不正确，请重试。
+IncorrectPassword=您所输入的密码不正确，请重试。
 
 ; *** “许可协议”向导页
 WizardLicense=许可协议
@@ -161,13 +161,13 @@ InvalidPath=您必须输入一个带驱动器卷标的完整路径，例如：%n
 InvalidDrive=您选定的驱动器或 UNC 共享不存在或不能访问。请选选择其它位置。
 DiskSpaceWarningTitle=没有足够的磁盘空间
 DiskSpaceWarning=安装程序至少需要 %1 KB 的可用空间才能安装，但选定驱动器只有 %2 KB 的可用空间。%n%n您一定要继续吗？
-DirNameTooLong=文件夹名或路径太长。
-InvalidDirName=文件夹名是无效的。
-BadDirName32=文件夹名不能包含下列任何字符：%n%n%1
-DirExistsTitle=文件夹存在
+DirNameTooLong=文件夹名称或路径太长。
+InvalidDirName=文件夹名称无效。
+BadDirName32=文件夹名称不能包含下列任何字符：%n%n%1
+DirExistsTitle=文件夹已存在
 DirExists=文件夹：%n%n%1%n%n已经存在。您一定要安装到这个文件夹中吗？
 DirDoesntExistTitle=文件夹不存在
-DirDoesntExist=文件夹：%n%n%1%n%n不存在。您想要创建此目录吗？
+DirDoesntExist=文件夹：%n%n%1%n%n不存在。您想要创建此文件夹吗？
 
 ; *** “选择组件”向导页
 WizardSelectComponents=选择组件
@@ -178,7 +178,7 @@ FullInstallation=完全安装
 CompactInstallation=简洁安装
 CustomInstallation=自定义安装
 NoUninstallWarningTitle=组件存在
-NoUninstallWarning=安装程序侦测到下列组件已在您的电脑中安装：%n%n%1%n%n取消选定这些组件将不能卸载它们。%n%n您一定要继续吗？
+NoUninstallWarning=安装程序检测到下列组件已在您的电脑中安装：%n%n%1%n%n取消选定这些组件将不能卸载它们。%n%n您一定要继续吗？
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
 ComponentsDiskSpaceGBLabel=当前选择的组件至少需要 [gb] GB 的磁盘空间。
@@ -213,7 +213,6 @@ ReadyMemoGroup=开始菜单文件夹：
 ReadyMemoTasks=附加任务：
 
 ; *** TDownloadWizardPage wizard page and DownloadTemporaryFile
-; *** “下载向导”向导页和临时下载文件
 DownloadingLabel=正在下载附加文件...
 ButtonStopDownload=停止下载（&S）
 StopDownload=您确定要停止下载吗？
@@ -233,7 +232,7 @@ CannotContinue=安装程序不能继续。请点击“取消”退出。
 ApplicationsFound=下列应用程序正在使用的文件需要更新设置。它是建议您允许安装程序自动关闭这些应用程序。
 ApplicationsFound2=下列应用程序正在使用的文件需要更新设置。它是建议您允许安装程序自动关闭这些应用程序。安装完成后，安装程序将尝试重新启动应用程序。
 CloseApplications=自动关闭该应用程序(&A)
-DontCloseApplications=不要关闭该应用程序(D)
+DontCloseApplications=不要关闭该应用程序(&D)
 ErrorCloseApplications=安装程序无法自动关闭所有应用程序。在继续之前，我们建议您关闭所有使用需要更新的安装程序文件。
 PrepareToInstallNeedsRestart=安装程序必须重新启动计算机。重新启动计算机后，请再次运行安装程序以完成 [name] 的安装。%n%n是否立即重新启动？
 
@@ -251,9 +250,9 @@ FinishedRestartMessage=要完成 [name] 的安装，安装程序必须重新启�
 ShowReadmeCheck=是，您想查阅自述文件
 YesRadio=是，立即重新启动电脑(&Y)
 NoRadio=否，稍后重新启动电脑(&N)
-; 用于象“运行 MyProg.exe”
+; used for example as 'Run MyProg.exe'
 RunEntryExec=运行 %1
-; 用于象“查阅 Readme.txt”
+; used for example as 'View Readme.txt'
 RunEntryShellExec=查阅 %1
 
 ; *** “安装程序需要下一张磁盘”提示
@@ -296,11 +295,11 @@ ErrorRegCreateKey=创建注册表项时出错：%n%1\%2
 ErrorRegWriteKey=写入注册表项时出错：%n%1\%2
 
 ; *** INI 错误
-ErrorIniEntry=在文件“%1”创建 INI 项目错误。
+ErrorIniEntry=在文件“%1”中创建INI条目时出错。
 
 ; *** 文件复制错误
-FileAbortRetryIgnoreSkipNotRecommended=跳过这个文件 (不推荐)(&S)
-FileAbortRetryIgnoreIgnoreNotRecommended=忽略错误并继续 (不推荐)(&I)
+FileAbortRetryIgnoreSkipNotRecommended=跳过这个文件(&S) (不推荐)
+FileAbortRetryIgnoreIgnoreNotRecommended=忽略错误并继续(&I) (不推荐)
 SourceIsCorrupted=源文件已损坏
 SourceDoesntExist=源文件“%1”不存在
 ExistingFileReadOnly2=无法替换现有文件，因为它是只读的。
@@ -315,7 +314,7 @@ FileExistsOverwriteOrKeepAll=为所有的冲突文件执行此操作(&D)
 ExistingFileNewerSelectAction=选择操作
 ExistingFileNewer2=现有的文件比安装程序将要安装的文件更新。
 ExistingFileNewerOverwriteExisting=覆盖已经存在的文件(&O)
-ExistingFileNewerKeepExisting=保留现有的文件 (推荐)(&K)
+ExistingFileNewerKeepExisting=保留现有的文件(&K) (推荐)
 ExistingFileNewerOverwriteOrKeepAll=为所有的冲突文件执行此操作(&D)
 ErrorChangingAttr=尝试改变下列现有的文件的属性时出错：
 ErrorCreatingTemp=尝试在目标目录创建文件时出错：
@@ -339,26 +338,26 @@ UninstallDisplayNameMarkAllUsers=所有用户
 UninstallDisplayNameMarkCurrentUser=当前用户
 
 ; *** 安装后错误
-ErrorOpeningReadme=当尝试打开自述文件时出错。
+ErrorOpeningReadme=尝试打开自述文件时出错。
 ErrorRestartingComputer=安装程序不能重新启动电脑，请手动重启。
 
 ; *** 卸载消息
-UninstallNotFound=文件“%1”不存在。不能卸载。
-UninstallOpenError=文件“%1”不能打开。不能卸载。
-UninstallUnsupportedVer=卸载日志文件“%1”有未被这个版本的卸载器承认的格式。不能卸载
+UninstallNotFound=文件“%1”不存在。无法卸载。
+UninstallOpenError=文件“%1”不能打开。无法卸载。
+UninstallUnsupportedVer=此版本的卸载程序无法识别卸载日志文件“%1”的格式。无法卸载
 UninstallUnknownEntry=在卸载日志中遇到一个未知的条目 (%1)
 ConfirmUninstall=您确认想要完全删除 %1 及它的所有组件吗？
-UninstallOnlyOnWin64=这个安装程序只能在 64 位 Windows 中进行卸载。
-OnlyAdminCanUninstall=这个安装的程序只能是有管理员权限的用户才能卸载。
-UninstallStatusLabel=正在从您的电脑中删除 %1，请等待。
+UninstallOnlyOnWin64=这个安装程序只能在64位Windows中进行卸载。
+OnlyAdminCanUninstall=这个安装的程序需要有管理员权限的用户才能卸载。
+UninstallStatusLabel=正在从您的电脑中删除 %1，请稍等。
 UninstalledAll=%1 已顺利地从您的电脑中删除。
-UninstalledMost=%1 卸载完成。%n%n有一些内容不能被删除。您可以手工删除它们。
+UninstalledMost=%1 卸载完成。%n%n有一些内容无法被删除。您可以手动删除它们。
 UninstalledAndNeedsRestart=要完成 %1 的卸载，您的电脑必须重新启动。%n%n您现在想重新启动电脑吗？
 UninstallDataCorrupted=“%1”文件被破坏，不能卸载
 
 ; *** 卸载状态消息
 ConfirmDeleteSharedFileTitle=删除共享文件吗？
-ConfirmDeleteSharedFile2=系统中包含的下列共享文件已经不被其它程序使用。您想要卸载程序删除这些共享文件吗？%n%n如果这些文件被删除，但还有程序正在使用这些文件，这些程序可能不能正确执行。如果您不能确定，选择“否”。把这些文件保留在系统中以免引起问题。
+ConfirmDeleteSharedFile2=系统中包含的下列共享文件已经不再被其它程序使用。您想要卸载程序删除这些共享文件吗？%n%n如果这些文件被删除，但还有程序正在使用这些文件，这些程序可能不能正确执行。如果您不能确定，选择“否”。把这些文件保留在系统中以免引起问题。
 SharedFileNameLabel=文件名：
 SharedFileLocationLabel=位置：
 WizardUninstalling=卸载状态
