@@ -218,12 +218,12 @@ DownloadingLabel=正在下载附加文件...
 ButtonStopDownload=停止下载（&S）
 StopDownload=您确定要停止下载吗？
 ErrorDownloadAborted=下载已中止
-ErrorDownloadFailed=下载失败：%d %s
-ErrorDownloadSizeFailed=获取下载大小失败：%d %s
-ErrorFileHash1=校验文件哈希失败：%s
-ErrorFileHash2=无效的文件哈希：预期 %s，实际 %s
-ErrorProgress=无效的进度：%d of %d
-ErrorFileSize=文件大小无效：预期 %d，实际 %d
+ErrorDownloadFailed=下载失败：%1 %2
+ErrorDownloadSizeFailed=获取下载大小失败：%1 %2
+ErrorFileHash1=校验文件哈希失败：%1
+ErrorFileHash2=无效的文件哈希：预期 %1，实际 %2
+ErrorProgress=无效的进度：%1 of %2
+ErrorFileSize=文件大小无效：预期 %1，实际 %2
 
 ; *** “正在准备安装”向导页
 WizardPreparing=正在准备安装
