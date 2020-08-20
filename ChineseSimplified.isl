@@ -1,5 +1,13 @@
 ﻿; *** Inno Setup version 6.1.0+ Chinese Simplified messages ***
 ;
+; To download user-contributed translations of this file, go to:
+;   https://jrsoftware.org/files/istrans/
+;
+; Note: When translating this text, do not add periods (.) to the end of
+; messages that didn't have them already, because on those messages Inno
+; Setup adds the periods automatically (appending a period would result in
+; two periods being displayed).
+;
 ; Maintained by Zhenghan Yang
 ; Email: 847320916@QQ.com
 ; Translation based on network resource
@@ -150,13 +158,13 @@ UserInfoNameRequired=您必须输入用户名。
 
 ; *** “选择目标目录”向导页
 WizardSelectDir=选择目标位置
-SelectDirDesc=您想将 [name] 安装在什么地方？
+SelectDirDesc=您想将 [name] 安装在哪里？
 SelectDirLabel3=安装程序将安装 [name] 到下列文件夹中。
 SelectDirBrowseLabel=点击“下一步”继续。如果您想选择其它文件夹，点击“浏览”。
 DiskSpaceGBLabel=至少需要有 [gb] GB 的可用磁盘空间。
 DiskSpaceMBLabel=至少需要有 [mb] MB 的可用磁盘空间。
 CannotInstallToNetworkDrive=安装程序无法安装到一个网络驱动器。
-CannotInstallToUNCPath=安装程序无法安装到一个网络路径。
+CannotInstallToUNCPath=安装程序无法安装到一个UNC路径。
 InvalidPath=您必须输入一个带驱动器卷标的完整路径，例如：%n%nC:\APP%n%n或下列形式的UNC路径：%n%n\\server\share
 InvalidDrive=您选定的驱动器或 UNC 共享不存在或不能访问。请选选择其它位置。
 DiskSpaceWarningTitle=没有足够的磁盘空间
@@ -177,7 +185,7 @@ FullInstallation=完全安装
 ; if possible don't translate 'Compact' as 'Minimal' (I mean 'Minimal' in your language)
 CompactInstallation=简洁安装
 CustomInstallation=自定义安装
-NoUninstallWarningTitle=组件存在
+NoUninstallWarningTitle=组件已存在
 NoUninstallWarning=安装程序检测到下列组件已在您的电脑中安装：%n%n%1%n%n取消选定这些组件将不能卸载它们。%n%n您一定要继续吗？
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
@@ -191,7 +199,7 @@ SelectTasksLabel2=选择您想要安装程序在安装 [name] 时执行的附加
 
 ; *** “选择开始菜单文件夹”向导页
 WizardSelectProgramGroup=选择开始菜单文件夹
-SelectStartMenuFolderDesc=您想在哪里放置程序的快捷方式？
+SelectStartMenuFolderDesc=安装程序应该在哪里放置程序的快捷方式？
 SelectStartMenuFolderLabel3=安装程序现在将在下列开始菜单文件夹中创建程序的快捷方式。
 SelectStartMenuFolderBrowseLabel=点击“下一步”继续。如果您想选择其它文件夹，点击“浏览”。
 MustEnterGroupName=您必须输入一个文件夹名。
@@ -203,7 +211,7 @@ NoProgramGroupCheck2=不创建开始菜单文件夹(&D)
 ; *** “准备安装”向导页
 WizardReady=准备安装
 ReadyLabel1=安装程序现在准备开始安装 [name] 到您的电脑中。
-ReadyLabel2a=点击“安装”继续此安装程序。如果您想要回顾或改变设置，请点击“上一步”。
+ReadyLabel2a=点击“安装”继续此安装程序。如果您想要回顾或修改设置，请点击“上一步”。
 ReadyLabel2b=点击“安装”继续此安装程序？
 ReadyMemoUserInfo=用户信息：
 ReadyMemoDir=目标位置：
@@ -214,15 +222,15 @@ ReadyMemoTasks=附加任务：
 
 ; *** TDownloadWizardPage wizard page and DownloadTemporaryFile
 DownloadingLabel=正在下载附加文件...
-ButtonStopDownload=停止下载（&S）
+ButtonStopDownload=停止下载(&S)
 StopDownload=您确定要停止下载吗？
 ErrorDownloadAborted=下载已中止
 ErrorDownloadFailed=下载失败：%1 %2
 ErrorDownloadSizeFailed=获取下载大小失败：%1 %2
 ErrorFileHash1=校验文件哈希失败：%1
 ErrorFileHash2=无效的文件哈希：预期 %1，实际 %2
-ErrorProgress=无效的进度：%1 of %2
-ErrorFileSize=文件大小无效：预期 %1，实际 %2
+ErrorProgress=无效的进度：%1，总共%2
+ErrorFileSize=文件大小错误：预期 %1，实际 %2
 
 ; *** “正在准备安装”向导页
 WizardPreparing=正在准备安装
@@ -245,9 +253,9 @@ FinishedHeadingLabel=[name] 安装完成
 FinishedLabelNoIcons=安装程序已在您的电脑中安装了 [name]。
 FinishedLabel=安装程序已在您的电脑中安装了 [name]。此应用程序可以通过选择安装的快捷方式运行。
 ClickFinish=点击“完成”退出安装程序。
-FinishedRestartLabel=要完成 [name] 的安装，安装程序必须重新启动您的电脑。您想现在重新启动吗？
-FinishedRestartMessage=要完成 [name] 的安装，安装程序必须重新启动您的电脑。%n%n您想现在重新启动吗？
-ShowReadmeCheck=是，您想查阅自述文件
+FinishedRestartLabel=要完成 [name] 的安装，安装程序必须重新启动您的电脑。您想要立即重新启动吗？
+FinishedRestartMessage=要完成 [name] 的安装，安装程序必须重新启动您的电脑。%n%n您想要立即重新启动吗？
+ShowReadmeCheck=是，我想查阅自述文件
 YesRadio=是，立即重新启动电脑(&Y)
 NoRadio=否，稍后重新启动电脑(&N)
 ; used for example as 'Run MyProg.exe'
@@ -257,14 +265,14 @@ RunEntryShellExec=查阅 %1
 
 ; *** “安装程序需要下一张磁盘”提示
 ChangeDiskTitle=安装程序需要下一张磁盘
-SelectDiskLabel2=请插入磁盘 %1 并点击“确定”。%n%n如果这个磁盘中的文件不能在不同于下列显示的文件夹中找到，输入正确的路径或点击“浏览”。
+SelectDiskLabel2=请插入磁盘 %1 并点击“确定”。%n%n如果这个磁盘中的文件可以在下列文件夹之外的文件夹中找到，请输入正确的路径或点击“浏览”。
 PathLabel=路径(&P)：
 FileNotInDir2=文件“%1”不能在“%2”定位。请插入正确的磁盘或选择其它文件夹。
 SelectDirectoryLabel=请指定下一张磁盘的位置。
 
 ; *** 安装状态消息
 SetupAborted=安装程序未完成安装。%n%n请修正这个问题并重新运行安装程序。
-AbortRetryIgnoreSelectAction=选项
+AbortRetryIgnoreSelectAction=选择操作
 AbortRetryIgnoreRetry=重试(&T)
 AbortRetryIgnoreIgnore=忽略错误并继续(&I)
 AbortRetryIgnoreCancel=关闭安装程序
@@ -321,7 +329,7 @@ ErrorCreatingTemp=尝试在目标目录创建文件时出错：
 ErrorReadingSource=尝试读取下列源文件时出错：
 ErrorCopying=尝试复制下列文件时出错：
 ErrorReplacingExistingFile=尝试替换现有的文件时出错：
-ErrorRestartReplace=重启电脑后替换文件失败：
+ErrorRestartReplace=重新启动替换失败：
 ErrorRenamingTemp=尝试重新命名以下目标目录中的一个文件时出错：
 ErrorRegisterServer=无法注册 DLL/OCX：%1
 ErrorRegSvr32Failed=RegSvr32 失败；退出代码 %1
@@ -352,8 +360,8 @@ OnlyAdminCanUninstall=这个安装的程序需要有管理员权限的用户才�
 UninstallStatusLabel=正在从您的电脑中删除 %1，请稍等。
 UninstalledAll=%1 已顺利地从您的电脑中删除。
 UninstalledMost=%1 卸载完成。%n%n有一些内容无法被删除。您可以手动删除它们。
-UninstalledAndNeedsRestart=要完成 %1 的卸载，您的电脑必须重新启动。%n%n您现在想重新启动电脑吗？
-UninstallDataCorrupted=“%1”文件被破坏，不能卸载
+UninstalledAndNeedsRestart=要完成 %1 的卸载，您的电脑必须重新启动。%n%n您想立即重新启动电脑吗？
+UninstallDataCorrupted=文件“%1”已损坏，无法卸载
 
 ; *** 卸载状态消息
 ConfirmDeleteSharedFileTitle=删除共享文件吗？
