@@ -15,6 +15,7 @@ Inno Setup 简体中文翻译
 - **Step 2**
 
   如果你是通过新建脚本的方式创建脚本，在**Languages**选项勾选**Chinese Simplified**即可：
+  
   ![wizard](Wizard.png)
 
   如果你需要在现有脚本中添加简体中文支持  
@@ -32,10 +33,11 @@ Inno Setup 简体中文翻译
   Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
   ```
 
-**注意：此翻译版本仅支持 Inno Setup 6.0.3+ 的软件**
+**注意：此翻译版本支持 Inno Setup 6.1.0+ 的软件**
 
-查看6.0.3+和6.0.0+的[区别](https://github.com/jrsoftware/issrc/commit/dfdf02aef168be458b64e77afb20ae53a5b4f2ec)  
-6.0.5版本没有变更翻译内容。
+查看6.1.0+和6.0.0+的[区别](https://github.com/jrsoftware/issrc/commit/9e03ea4de5b8639937d2c4024ec8582a7e63b048)
+
+查看6.0.3+和6.0.0+的[区别](https://github.com/jrsoftware/issrc/commit/dfdf02aef168be458b64e77afb20ae53a5b4f2ec)
 
 ### 链接 ###
 
