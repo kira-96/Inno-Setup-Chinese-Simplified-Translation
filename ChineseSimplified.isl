@@ -23,6 +23,8 @@ LanguageName=简体中文
 ; About LanguageID, to reference link:
 ; https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c
 LanguageID=$0804
+; About CodePage, to reference link:
+; https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers
 LanguageCodePage=936
 ; If the language you are translating to requires special font faces or
 ; sizes, uncomment any of the following entries and change them accordingly.
@@ -85,7 +87,7 @@ PrivilegesRequiredOverrideCurrentUserRecommended=只为我安装(&M) (建议选�
 
 ; *** 其它错误
 ErrorCreatingDir=安装程序不能创建目录“%1”。
-ErrorTooManyFilesInDir=不能在目录“%1”中创建文件，因为里面的文件太多
+ErrorTooManyFilesInDir=无法在目录“%1”中创建文件，因为里面包含太多文件
 
 ; *** 安装程序公共消息
 ExitSetupTitle=退出安装程序
@@ -131,7 +133,7 @@ WizardPassword=密码
 PasswordLabel1=这个安装程序有密码保护。
 PasswordLabel3=请输入密码，然后点击“下一步”继续。密码区分大小写。
 PasswordEditLabel=密码(&P)：
-IncorrectPassword=您所输入的密码不正确，请重试。
+IncorrectPassword=您所输入的密码不正确，请重新输入。
 
 ; *** “许可协议”向导页
 WizardLicense=许可协议
@@ -166,8 +168,8 @@ DiskSpaceMBLabel=至少需要有 [mb] MB 的可用磁盘空间。
 CannotInstallToNetworkDrive=安装程序无法安装到一个网络驱动器。
 CannotInstallToUNCPath=安装程序无法安装到一个UNC路径。
 InvalidPath=您必须输入一个带驱动器卷标的完整路径，例如：%n%nC:\APP%n%n或下列形式的UNC路径：%n%n\\server\share
-InvalidDrive=您选定的驱动器或 UNC 共享不存在或不能访问。请选选择其它位置。
-DiskSpaceWarningTitle=没有足够的磁盘空间
+InvalidDrive=您选定的驱动器或 UNC 共享不存在或不能访问。请选择其它位置。
+DiskSpaceWarningTitle=磁盘空间不足
 DiskSpaceWarning=安装程序至少需要 %1 KB 的可用空间才能安装，但选定驱动器只有 %2 KB 的可用空间。%n%n您一定要继续吗？
 DirNameTooLong=文件夹名称或路径太长。
 InvalidDirName=文件夹名称无效。
@@ -204,7 +206,7 @@ SelectStartMenuFolderLabel3=安装程序现在将在下列开始菜单文件夹�
 SelectStartMenuFolderBrowseLabel=点击“下一步”继续。如果您想选择其它文件夹，点击“浏览”。
 MustEnterGroupName=您必须输入一个文件夹名。
 GroupNameTooLong=文件夹名或路径太长。
-InvalidGroupName=文件夹名是无效的。
+InvalidGroupName=无效的文件夹名字。
 BadGroupName=文件夹名不能包含下列任何字符：%n%n%1
 NoProgramGroupCheck2=不创建开始菜单文件夹(&D)
 
@@ -237,11 +239,11 @@ WizardPreparing=正在准备安装
 PreparingDesc=安装程序正在准备安装 [name] 到您的电脑中。
 PreviousInstallNotCompleted=先前程序的安装/卸载未完成。您需要重新启动您的电脑才能完成安装。%n%n在重新启动电脑后，再运行安装完成 [name] 的安装。
 CannotContinue=安装程序不能继续。请点击“取消”退出。
-ApplicationsFound=下列应用程序正在使用的文件需要更新设置。它是建议您允许安装程序自动关闭这些应用程序。
-ApplicationsFound2=下列应用程序正在使用的文件需要更新设置。它是建议您允许安装程序自动关闭这些应用程序。安装完成后，安装程序将尝试重新启动应用程序。
+ApplicationsFound=以下应用程序正在使用需要由安装程序更新的文件。建议您允许安装程序自动关闭这些应用程序。
+ApplicationsFound2=以下应用程序正在使用需要由安装程序更新的文件。建议您允许安装程序自动关闭这些应用程序。安装完成后，安装程序将尝试重新启动应用程序。
 CloseApplications=自动关闭该应用程序(&A)
 DontCloseApplications=不要关闭该应用程序(&D)
-ErrorCloseApplications=安装程序无法自动关闭所有应用程序。在继续之前，我们建议您关闭所有使用需要更新的安装程序文件。
+ErrorCloseApplications=安装程序无法自动关闭所有应用程序。建议您在继续之前关闭所有使用需要由安装程序更新的文件的应用程序。
 PrepareToInstallNeedsRestart=安装程序必须重新启动计算机。重新启动计算机后，请再次运行安装程序以完成 [name] 的安装。%n%n是否立即重新启动？
 
 ; *** “正在安装”向导页
