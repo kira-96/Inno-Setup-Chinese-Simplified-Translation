@@ -1,0 +1,16 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+*          text=auto
+
+# default for inno setup language file
+*.isl      text
+
+# Documents
+*.md       text
+
+# Images
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
