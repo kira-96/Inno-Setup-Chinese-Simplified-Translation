@@ -15,10 +15,10 @@ Inno Setup 简体中文翻译
 - **Step 2**
 
   如果你是通过新建脚本的方式创建脚本，在**Languages**选项勾选**Chinese Simplified**即可：
-  
+
   ![wizard](Wizard.png)
 
-  如果你需要在现有脚本中添加简体中文支持  
+  如果你需要在现有脚本中添加简体中文支持
   直接在你的脚本的`[Languages]`部分添加下面一行即可
 
   ``` yaml
@@ -26,7 +26,7 @@ Inno Setup 简体中文翻译
   ```
 
   示例：
-  
+
   ``` yaml
   [Languages]
   Name: "english"; MessagesFile: "compiler:Default.isl"

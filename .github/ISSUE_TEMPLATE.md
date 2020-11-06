@@ -1,6 +1,6 @@
 ---
 name: issue tempalte
-about: Issue 模板
+about: issue 模板
 ---
 
 #### 问题描述
