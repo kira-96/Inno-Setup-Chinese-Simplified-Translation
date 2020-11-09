@@ -52,13 +52,13 @@ ErrorTitle=错误
 
 ; *** SetupLdr messages
 SetupLdrStartupMessage=现在将安装 %1。您想要继续吗？
-LdrCannotCreateTemp=不能创建临时文件。安装中断。
-LdrCannotExecTemp=不能执行临时目录中的文件。安装中断。
+LdrCannotCreateTemp=无法创建临时文件。安装程序已中止
+LdrCannotExecTemp=无法执行临时目录中的文件。安装程序已中止
 HelpTextNote=
 
 ; *** 启动错误消息
-LastErrorMessage=%1.%n%n错误 %2: %3
-SetupFileMissing=安装目录中的文件 %1 丢失。请修正这个问题或者获取程序的新副本。
+LastErrorMessage=%1。%n%n错误 %2: %3
+SetupFileMissing=安装目录中缺少文件 %1。请修正这个问题或者获取程序的新副本。
 SetupFileCorrupt=安装文件已损坏。请获取程序的新副本。
 SetupFileCorruptOrWrongVer=安装文件已损坏，或是与这个安装程序的版本不兼容。请修正这个问题或获取新的程序副本。
 InvalidParameter=无效的命令行参数：%n%n%1
@@ -72,8 +72,8 @@ WinVersionTooLowError=这个程序需要 %1 版本 %2 或更高。
 WinVersionTooHighError=这个程序不能安装于 %1 版本 %2 或更高。
 AdminPrivilegesRequired=在安装这个程序时您必须以管理员身份登录。
 PowerUserPrivilegesRequired=在安装这个程序时您必须以管理员身份或有权限的用户组身份登录。
-SetupAppRunningError=安装程序发现 %1 当前正在运行。%n%n请先关闭所有运行的窗口，然后点击“确定”继续，或按“取消”退出。
-UninstallAppRunningError=卸载程序发现 %1 当前正在运行。%n%n请先关闭所有运行的窗口，然后点击“确定”继续，或按“取消”退出。
+SetupAppRunningError=安装程序发现 %1 当前正在运行。%n%n请先关闭正在运行的程序，然后点击“确定”继续，或点击“取消”退出。
+UninstallAppRunningError=卸载程序发现 %1 当前正在运行。%n%n请先关闭正在运行的程序，然后点击“确定”继续，或点击“取消”退出。
 
 ; *** 启动问题
 PrivilegesRequiredOverrideTitle=选择安装程序模式
@@ -121,12 +121,12 @@ SelectLanguageLabel=选择安装时要使用的语言。
 ClickNext=点击“下一步”继续，或点击“取消”退出安装程序。
 BeveledLabel=
 BrowseDialogTitle=浏览文件夹
-BrowseDialogLabel=在下列列表中选择一个文件夹，然后点击“确定”。
+BrowseDialogLabel=在下面的列表中选择一个文件夹，然后点击“确定”。
 NewFolderName=新建文件夹
 
 ; *** “欢迎”向导页
 WelcomeLabel1=欢迎使用 [name] 安装向导
-WelcomeLabel2=现在将安装 [name/ver] 到您的电脑中。%n%n推荐您在继续安装前关闭所有其它应用程序。
+WelcomeLabel2=现在将安装 [name/ver] 到您的电脑中。%n%n建议您在继续安装前关闭所有其它应用程序。
 
 ; *** “密码”向导页
 WizardPassword=密码
@@ -137,18 +137,18 @@ IncorrectPassword=您所输入的密码不正确，请重新输入。
 
 ; *** “许可协议”向导页
 WizardLicense=许可协议
-LicenseLabel=继续安装前请阅读下列重要信息。
-LicenseLabel3=请仔细阅读下列许可协议。您在继续安装前必须同意这些协议条款。
+LicenseLabel=请在继续安装前阅读以下重要信息。
+LicenseLabel3=请仔细阅读下列许可协议。在继续安装前您必须同意这些协议条款。
 LicenseAccepted=我同意此协议(&A)
 LicenseNotAccepted=我不同意此协议(&D)
 
 ; *** “信息”向导页
 WizardInfoBefore=信息
-InfoBeforeLabel=请在继续安装前阅读下列重要信息。
-InfoBeforeClickLabel=如果您想继续安装，点击“下一步”。
+InfoBeforeLabel=请在继续安装前阅读以下重要信息。
+InfoBeforeClickLabel=准备好继续安装后，点击“下一步”。
 WizardInfoAfter=信息
-InfoAfterLabel=请在继续安装前阅读下列重要信息。
-InfoAfterClickLabel=如果您想继续安装，点击“下一步”。
+InfoAfterLabel=请在继续安装前阅读以下重要信息。
+InfoAfterClickLabel=准备好继续安装后，点击“下一步”。
 
 ; *** “用户信息”向导页
 WizardUserInfo=用户信息
