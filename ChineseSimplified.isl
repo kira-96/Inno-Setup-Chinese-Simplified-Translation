@@ -63,15 +63,15 @@ SetupFileCorrupt=安装文件已损坏。请获取程序的新副本。
 SetupFileCorruptOrWrongVer=安装文件已损坏，或是与这个安装程序的版本不兼容。请修正这个问题或获取新的程序副本。
 InvalidParameter=无效的命令行参数：%n%n%1
 SetupAlreadyRunning=安装程序正在运行。
-WindowsVersionNotSupported=这个程序不支持当前计算机运行的 Windows 版本。
-WindowsServicePackRequired=这个程序需要 %1 服务包 %2 或更高版本。
-NotOnThisPlatform=这个程序不能在 %1 上运行。
-OnlyOnThisPlatform=这个程序只能在 %1 上运行。
-OnlyOnTheseArchitectures=这个程序只能在为下列处理器结构设计的 Windows 版本中安装：%n%n%1
-WinVersionTooLowError=这个程序需要 %1 版本 %2 或更高。
-WinVersionTooHighError=这个程序不能安装于 %1 版本 %2 或更高。
-AdminPrivilegesRequired=在安装这个程序时您必须以管理员身份登录。
-PowerUserPrivilegesRequired=在安装这个程序时您必须以管理员身份或有权限的用户组身份登录。
+WindowsVersionNotSupported=此程序不支持当前计算机运行的 Windows 版本。
+WindowsServicePackRequired=此程序需要 %1 服务包 %2 或更高版本。
+NotOnThisPlatform=此程序不能在 %1 上运行。
+OnlyOnThisPlatform=此程序只能在 %1 上运行。
+OnlyOnTheseArchitectures=此程序只能在为下列处理器结构设计的 Windows 版本中安装：%n%n%1
+WinVersionTooLowError=此程序需要 %1 版本 %2 或更高。
+WinVersionTooHighError=此程序不能安装于 %1 版本 %2 或更高。
+AdminPrivilegesRequired=在安装此程序时您必须以管理员身份登录。
+PowerUserPrivilegesRequired=在安装此程序时您必须以管理员身份或有权限的用户组身份登录。
 SetupAppRunningError=安装程序发现 %1 当前正在运行。%n%n请先关闭正在运行的程序，然后点击“确定”继续，或点击“取消”退出。
 UninstallAppRunningError=卸载程序发现 %1 当前正在运行。%n%n请先关闭正在运行的程序，然后点击“确定”继续，或点击“取消”退出。
 
@@ -85,7 +85,7 @@ PrivilegesRequiredOverrideAllUsersRecommended=为所有用户安装(&A) (建议�
 PrivilegesRequiredOverrideCurrentUser=只为我安装(&M)
 PrivilegesRequiredOverrideCurrentUserRecommended=只为我安装(&M) (建议选项)
 
-; *** 其它错误
+; *** 其他错误
 ErrorCreatingDir=安装程序无法创建目录“%1”。
 ErrorTooManyFilesInDir=无法在目录“%1”中创建文件，因为里面包含太多文件
 
@@ -96,7 +96,7 @@ AboutSetupMenuItem=关于安装程序(&A)...
 AboutSetupTitle=关于安装程序
 AboutSetupMessage=%1 版本 %2%n%3%n%n%1 主页：%n%4
 AboutSetupNote=
-TranslatorNote=
+TranslatorNote=简体中文翻译由Kira(847320916@qq.com)维护。项目地址：https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation
 
 ; *** 按钮
 ButtonBack=< 上一步(&B)
@@ -126,7 +126,7 @@ NewFolderName=新建文件夹
 
 ; *** “欢迎”向导页
 WelcomeLabel1=欢迎使用 [name] 安装向导
-WelcomeLabel2=现在将安装 [name/ver] 到您的电脑中。%n%n建议您在继续安装前关闭所有其它应用程序。
+WelcomeLabel2=现在将安装 [name/ver] 到您的电脑中。%n%n建议您在继续安装前关闭所有其他应用程序。
 
 ; *** “密码”向导页
 WizardPassword=密码
@@ -162,13 +162,13 @@ UserInfoNameRequired=您必须输入用户名。
 WizardSelectDir=选择目标位置
 SelectDirDesc=您想将 [name] 安装在哪里？
 SelectDirLabel3=安装程序将安装 [name] 到下面的文件夹中。
-SelectDirBrowseLabel=点击“下一步”继续。如果您想选择其它文件夹，点击“浏览”。
+SelectDirBrowseLabel=点击“下一步”继续。如果您想选择其他文件夹，点击“浏览”。
 DiskSpaceGBLabel=至少需要有 [gb] GB 的可用磁盘空间。
 DiskSpaceMBLabel=至少需要有 [mb] MB 的可用磁盘空间。
 CannotInstallToNetworkDrive=安装程序无法安装到一个网络驱动器。
 CannotInstallToUNCPath=安装程序无法安装到一个 UNC 路径。
 InvalidPath=您必须输入一个带驱动器卷标的完整路径，例如：%n%nC:\APP%n%n或UNC路径：%n%n\\server\share
-InvalidDrive=您选定的驱动器或 UNC 共享不存在或不能访问。请选择其它位置。
+InvalidDrive=您选定的驱动器或 UNC 共享不存在或不能访问。请选择其他位置。
 DiskSpaceWarningTitle=磁盘空间不足
 DiskSpaceWarning=安装程序至少需要 %1 KB 的可用空间才能安装，但选定驱动器只有 %2 KB 的可用空间。%n%n您一定要继续吗？
 DirNameTooLong=文件夹名称或路径太长。
@@ -203,7 +203,7 @@ SelectTasksLabel2=选择您想要安装程序在安装 [name] 时执行的附加
 WizardSelectProgramGroup=选择开始菜单文件夹
 SelectStartMenuFolderDesc=安装程序应该在哪里放置程序的快捷方式？
 SelectStartMenuFolderLabel3=安装程序将在下列“开始”菜单文件夹中创建程序的快捷方式。
-SelectStartMenuFolderBrowseLabel=点击“下一步”继续。如果您想选择其它文件夹，点击“浏览”。
+SelectStartMenuFolderBrowseLabel=点击“下一步”继续。如果您想选择其他文件夹，点击“浏览”。
 MustEnterGroupName=您必须输入一个文件夹名。
 GroupNameTooLong=文件夹名或路径太长。
 InvalidGroupName=无效的文件夹名字。
@@ -269,7 +269,7 @@ RunEntryShellExec=查阅 %1
 ChangeDiskTitle=安装程序需要下一张磁盘
 SelectDiskLabel2=请插入磁盘 %1 并点击“确定”。%n%n如果这个磁盘中的文件可以在下列文件夹之外的文件夹中找到，请输入正确的路径或点击“浏览”。
 PathLabel=路径(&P)：
-FileNotInDir2=“%2”中找不到文件“%1”。请插入正确的磁盘或选择其它文件夹。
+FileNotInDir2=“%2”中找不到文件“%1”。请插入正确的磁盘或选择其他文件夹。
 SelectDirectoryLabel=请指定下一张磁盘的位置。
 
 ; *** 安装状态消息
@@ -292,7 +292,7 @@ StatusRunProgram=正在完成安装...
 StatusRestartingApplications=正在重启应用程序...
 StatusRollback=正在撤销更改...
 
-; *** 其它错误
+; *** 其他错误
 ErrorInternal2=内部错误：%1
 ErrorFunctionFailedNoCode=%1 失败
 ErrorFunctionFailed=%1 失败；错误代码 %2
