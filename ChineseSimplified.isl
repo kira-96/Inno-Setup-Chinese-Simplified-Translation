@@ -52,8 +52,8 @@ ErrorTitle=错误
 
 ; *** SetupLdr messages
 SetupLdrStartupMessage=现在将安装 %1。您想要继续吗？
-LdrCannotCreateTemp=无法创建临时文件。安装程序已中止。
-LdrCannotExecTemp=无法执行临时目录中的文件。安装程序已中止。
+LdrCannotCreateTemp=无法创建临时文件。安装程序已中止
+LdrCannotExecTemp=无法执行临时目录中的文件。安装程序已中止
 HelpTextNote=
 
 ; *** 启动错误消息
@@ -86,8 +86,8 @@ PrivilegesRequiredOverrideCurrentUser=只为我安装(&M)
 PrivilegesRequiredOverrideCurrentUserRecommended=只为我安装(&M) (建议选项)
 
 ; *** 其他错误
-ErrorCreatingDir=安装程序无法创建目录“%1”。
-ErrorTooManyFilesInDir=无法在目录“%1”中创建文件，因为里面包含太多文件。
+ErrorCreatingDir=安装程序无法创建目录“%1”
+ErrorTooManyFilesInDir=无法在目录“%1”中创建文件，因为里面包含太多文件
 
 ; *** 安装程序公共消息
 ExitSetupTitle=退出安装程序
