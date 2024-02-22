@@ -86,7 +86,7 @@ PrivilegesRequiredOverrideCurrentUser=只为我安装(&M)
 PrivilegesRequiredOverrideCurrentUserRecommended=只为我安装(&M) (建议选项)
 
 ; *** 其他错误
-ErrorCreatingDir=安装程序无法创建目录“%1”。
+ErrorCreatingDir=安装程序无法创建目录“%1”
 ErrorTooManyFilesInDir=无法在目录“%1”中创建文件，因为里面包含太多文件
 
 ; *** 安装程序公共消息
