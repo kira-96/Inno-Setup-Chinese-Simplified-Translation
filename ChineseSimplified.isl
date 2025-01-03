@@ -1,4 +1,4 @@
-﻿; *** Inno Setup version 6.1.0+ Chinese Simplified messages ***
+﻿; *** Inno Setup version 6.4.0+ Chinese Simplified messages ***
 ;
 ; To download user-contributed translations of this file, go to:
 ;   https://jrsoftware.org/files/istrans/
@@ -221,6 +221,13 @@ ReadyMemoType=安装类型：
 ReadyMemoComponents=已选择组件：
 ReadyMemoGroup=开始菜单文件夹：
 ReadyMemoTasks=附加任务：
+
+; *** TExtractionWizardPage wizard page and Extract7ZipArchive
+ExtractionLabel=正在提取附加文件...
+ButtonStopExtraction=停止提取(&S)
+StopExtraction=您确定要停止提取吗？
+ErrorExtractionAborted=提取已中止
+ErrorExtractionFailed=提取失败：%1
 
 ; *** TDownloadWizardPage wizard page and DownloadTemporaryFile
 DownloadingLabel=正在下载附加文件...
