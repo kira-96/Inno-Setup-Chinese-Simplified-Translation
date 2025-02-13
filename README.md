@@ -33,11 +33,7 @@ Inno Setup 简体中文翻译
   Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
   ```
 
-**注意：此翻译版本支持 Inno Setup 6.1.0+ 的软件，Inno Setup 5 的翻译文件在[这里](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/tree/5.5.3+)**
-
-查看6.1.0+和6.0.0+的[区别](https://github.com/jrsoftware/issrc/commit/9e03ea4de5b8639937d2c4024ec8582a7e63b048)
-
-查看6.0.3+和6.0.0+的[区别](https://github.com/jrsoftware/issrc/commit/dfdf02aef168be458b64e77afb20ae53a5b4f2ec)
+**注意：此翻译版本支持 Inno Setup 6.4.0+ 的软件，Inno Setup 5 的翻译文件在[这里](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/tree/5.5.3+)**
 
 ### 链接 ###
 
