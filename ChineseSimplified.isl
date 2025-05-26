@@ -79,11 +79,11 @@ UninstallAppRunningError=卸载程序发现 %1 当前正在运行。%n%n请先�
 PrivilegesRequiredOverrideTitle=选择安装程序模式
 PrivilegesRequiredOverrideInstruction=选择安装模式
 PrivilegesRequiredOverrideText1=%1 可以为所有用户安装(需要管理员权限)，或仅为您安装。
-PrivilegesRequiredOverrideText2=%1 只能为您安装，或为所有用户安装(需要管理员权限)。
+PrivilegesRequiredOverrideText2=%1 可以仅为您安装，或为所有用户安装(需要管理员权限)。
 PrivilegesRequiredOverrideAllUsers=为所有用户安装(&A)
 PrivilegesRequiredOverrideAllUsersRecommended=为所有用户安装(&A) (建议选项)
-PrivilegesRequiredOverrideCurrentUser=只为我安装(&M)
-PrivilegesRequiredOverrideCurrentUserRecommended=只为我安装(&M) (建议选项)
+PrivilegesRequiredOverrideCurrentUser=仅为我安装(&M)
+PrivilegesRequiredOverrideCurrentUserRecommended=仅为我安装(&M) (建议选项)
 
 ; *** 其他错误
 ErrorCreatingDir=安装程序无法创建目录“%1”
