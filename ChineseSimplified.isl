@@ -222,19 +222,19 @@ ReadyMemoComponents=已选择组件：
 ReadyMemoGroup=开始菜单文件夹：
 ReadyMemoTasks=附加任务：
 
-; *** TExtractionWizardPage 向导页面与 ExtractArchive 解压功能
+; *** TExtractionWizardPage 向导页面与 ExtractArchive
 ExtractingLabel=正在提取文件...
 ButtonStopExtraction=停止提取(&S)
 StopExtraction=您确定要停止提取吗？
 ErrorExtractionAborted=提取已中止
 ErrorExtractionFailed=提取失败：%1
 
-; *** 存档文件解压失败详情
+; *** 安装文件提取失败详情
 ArchiveIncorrectPassword=密码不正确
-ArchiveIsCorrupted=存档文件已损坏
-ArchiveUnsupportedFormat=不支持的存档文件格式
+ArchiveIsCorrupted=安装文件已损坏
+ArchiveUnsupportedFormat=不支持的安装文件格式
 
-; *** TDownloadWizardPage 向导页面和 DownloadTemporaryFile 功能
+; *** TDownloadWizardPage 向导页面和 DownloadTemporaryFile
 DownloadingLabel2=正在下载附加文件...
 ButtonStopDownload=停止下载(&S)
 StopDownload=您确定要停止下载吗？
@@ -295,7 +295,7 @@ RetryCancelCancel=取消(&C)
 ; *** 安装状态消息
 StatusClosingApplications=正在关闭应用程序...
 StatusCreateDirs=正在创建目录...
-StatusExtractFiles=正在解压缩文件...
+StatusExtractFiles=正在提取文件...
 StatusDownloadFiles=正在下载文件...
 StatusCreateIcons=正在创建快捷方式...
 StatusCreateIniEntries=正在创建 INI 条目...
@@ -353,7 +353,7 @@ ErrorCreatingTemp=尝试在目标目录创建文件时出错：
 ErrorReadingSource=尝试读取下列源文件时出错：
 ErrorCopying=尝试复制下列文件时出错：
 ErrorDownloading=下载文件时出错：
-ErrorExtracting=解压档案时出错：
+ErrorExtracting=提取安装文件时出错：
 ErrorReplacingExistingFile=尝试替换现有文件时出错：
 ErrorRestartReplace=重启并替换失败：
 ErrorRenamingTemp=尝试重命名下列目标目录中的一个文件时出错：

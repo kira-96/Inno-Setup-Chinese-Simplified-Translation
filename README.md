@@ -6,7 +6,11 @@ Inno Setup 简体中文翻译
 [![GitHub stars](https://img.shields.io/github/stars/kira-96/Inno-Setup-Chinese-Simplified-Translation)](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/stargazers)
 [![GitHub license](https://img.shields.io/github/license/kira-96/Inno-Setup-Chinese-Simplified-Translation)](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
 
-## 本地食用方法 ##
+**注意：此翻译版本支持 Inno Setup 6.5.0+ 的软件，Inno Setup 5 的翻译文件在[这里](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/tree/5.5.3+)**
+
+## 食用方法 ##
+
+### 本地食用方法 ###
 
 - **Step 1**
 
@@ -33,7 +37,7 @@ Inno Setup 简体中文翻译
   Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
   ```
 
-## GitHub Actions 食用方法 ##
+### GitHub Actions 食用方法 ###
 
 - **Step 1**
 
@@ -47,6 +51,7 @@ Inno Setup 简体中文翻译
   [Languages]
   Name: "chinesesimplified"; MessagesFile: ".\myfolder\ChineseSimplified.isl"
   ```
+
 - **Step 3**
 
   配置工作流安装**指定版本**的 Inno Setup
@@ -55,9 +60,7 @@ Inno Setup 简体中文翻译
 
   执行打包作业
 
-### Workflow 配置示例
-
-以下是一个 GitHub Actions 工作流示例
+#### GitHub Actions 示例 ####
 
 ```
 # 项目结构示例
@@ -104,8 +107,6 @@ jobs:
         shell: pwsh
 ```
 
-
-**注意：此翻译版本支持 Inno Setup 6.5.0+ 的软件，Inno Setup 5 的翻译文件在[这里](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation/tree/5.5.3+)**
 
 ### 链接 ###
 
