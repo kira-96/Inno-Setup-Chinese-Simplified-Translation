@@ -229,9 +229,9 @@ StopExtraction=您确定要停止提取吗？
 ErrorExtractionAborted=提取已中止
 ErrorExtractionFailed=提取失败：%1
 
-; *** 压缩文件解压失败详情  
-ArchiveIncorrectPassword=压缩文件密码不正确  
-ArchiveIsCorrupted=压缩文件已损坏  
+; *** 压缩文件解压失败详情
+ArchiveIncorrectPassword=压缩文件密码不正确
+ArchiveIsCorrupted=压缩文件已损坏
 ArchiveUnsupportedFormat=不支持的压缩文件格式
 
 ; *** TDownloadWizardPage 向导页面和 DownloadTemporaryFile
