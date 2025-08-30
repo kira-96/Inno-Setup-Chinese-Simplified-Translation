@@ -229,10 +229,10 @@ StopExtraction=您确定要停止提取吗？
 ErrorExtractionAborted=提取已中止
 ErrorExtractionFailed=提取失败：%1
 
-; *** 安装文件提取失败详情
-ArchiveIncorrectPassword=密码不正确
-ArchiveIsCorrupted=安装文件已损坏
-ArchiveUnsupportedFormat=不支持的安装文件格式
+; *** 压缩文件解压失败详情  
+ArchiveIncorrectPassword=压缩文件密码不正确  
+ArchiveIsCorrupted=压缩文件已损坏  
+ArchiveUnsupportedFormat=不支持的压缩文件格式
 
 ; *** TDownloadWizardPage 向导页面和 DownloadTemporaryFile
 DownloadingLabel2=正在下载附加文件...
@@ -353,7 +353,7 @@ ErrorCreatingTemp=尝试在目标目录创建文件时出错：
 ErrorReadingSource=尝试读取下列源文件时出错：
 ErrorCopying=尝试复制下列文件时出错：
 ErrorDownloading=下载文件时出错：
-ErrorExtracting=提取安装文件时出错：
+ErrorExtracting=解压压缩文件时出错：
 ErrorReplacingExistingFile=尝试替换现有文件时出错：
 ErrorRestartReplace=重启并替换失败：
 ErrorRenamingTemp=尝试重命名下列目标目录中的一个文件时出错：
