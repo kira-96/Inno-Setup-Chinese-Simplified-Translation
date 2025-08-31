@@ -235,7 +235,7 @@ ArchiveIsCorrupted=压缩文件已损坏
 ArchiveUnsupportedFormat=不支持的压缩文件格式
 
 ; *** TDownloadWizardPage 向导页面和 DownloadTemporaryFile
-DownloadingLabel2=正在下载附加文件...
+DownloadingLabel2=正在下载文件...
 ButtonStopDownload=停止下载(&S)
 StopDownload=您确定要停止下载吗？
 ErrorDownloadAborted=下载已中止
