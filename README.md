@@ -10,7 +10,7 @@ Inno Setup 简体中文翻译
 
 ## 食用方法 ##
 
-### 本地食用方法 ###
+### 本地环境 ###
 
 - **Step 1**
 
@@ -22,48 +22,50 @@ Inno Setup 简体中文翻译
 
   ![wizard](Wizard.png)
 
-  如果你需要在现有脚本中添加简体中文支持
-  直接在你的脚本的`[Languages]`部分添加下面一行即可
+  如果你需要在现有脚本中添加简体中文支持，直接在你的脚本的`[Languages]`部分添加下面一行即可：
 
-  ``` yaml
+  ``` iss
   Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
   ```
 
   示例：
 
-  ``` yaml
+  ``` iss
   [Languages]
   Name: "english"; MessagesFile: "compiler:Default.isl"
   Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
   ```
 
-### GitHub Actions 食用方法 ###
+### 持续集成（CI）环境 ###
 
 - **Step 1**
 
-  将**ChineseSimplified.isl**放在你的项目仓库中
+  将**ChineseSimplified.isl**放到你的项目仓库里面
 
 - **Step 2**
 
-  将你项目的 iss 脚本的语言设置为`chinesesimplified`，并指定语言文件的路径
-  > 此处的路径是语言文件在你项目的相对路径
-  ```iss
+  与本地操作类似，需要向现有脚本的`[Languages]`部分添加简体中文。其中`MessagesFile`参数为相对路径，即**ChineseSimplified.isl**相对该脚本的路径。示例：
+
+  ``` iss
   [Languages]
-  Name: "chinesesimplified"; MessagesFile: ".\myfolder\ChineseSimplified.isl"
+  Name: "chinesesimplified"; MessagesFile: ".\ChineseSimplified.isl"
   ```
 
 - **Step 3**
 
-  配置工作流安装**指定版本**的 Inno Setup
+  安装与**ChineseSimplified.isl**版本相符的 Inno Setup
 
 - **Step 4**
 
   执行打包作业
 
-#### GitHub Actions 示例 ####
+<details open>
+<summary>示例：GitHub Actions 配置</summary>
+
+考虑如下项目结构：
 
 ```
-# 项目结构示例
+/
 ├── .github/
 │   └── workflows/
 │           example.yml
@@ -73,13 +75,13 @@ Inno Setup 简体中文翻译
 └── 其他文件
 ```
 
-```yml
-name: Build and Release
+``` yaml
+# .github/workflows/example.yml
+
+name: Build and Package
 
 on:
   push:
-    tags:
-      - "v*"
 
 jobs:
   build:
@@ -87,26 +89,29 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
       
-      # 安装指定版本的 Inno Setup，并添加到环境变量
+      # 安装特定版本的 Inno Setup 并添加到环境变量
       - name: Install Inno Setup
         run: |
-          curl -OL https://files.jrsoftware.org/is/6/innosetup-6.5.0.exe
+          # 发现异常时报错
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $true
+
+          curl.exe -OL https://files.jrsoftware.org/is/6/innosetup-6.5.0.exe
           .\innosetup-6.5.0.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
           "C:\Program Files (x86)\Inno Setup 6" >> $env:GITHUB_PATH
         shell: pwsh
         
-      # 中间的步骤是编译你自己项目产物，这里进行省略
+      # 中间的步骤是编译你自己项目产物，这里省略
         
-      # 执行Inno Setup打包  
+      # 执行 Inno Setup 打包
       - name: Build Installer
-        run: |
-          cd myfolder
-          ISCC.exe InnoSetup.iss
+        run: ISCC.exe myfolder\InnoSetup.iss
         shell: pwsh
 ```
 
+</details>
 
 ### 链接 ###
 
