@@ -223,11 +223,11 @@ ReadyMemoGroup=开始菜单文件夹：
 ReadyMemoTasks=附加任务：
 
 ; *** TExtractionWizardPage 向导页面与 ExtractArchive
-ExtractingLabel=正在提取文件...
-ButtonStopExtraction=停止提取(&S)
-StopExtraction=您确定要停止提取吗？
-ErrorExtractionAborted=提取已中止
-ErrorExtractionFailed=提取失败：%1
+ExtractingLabel=正在解压文件...
+ButtonStopExtraction=停止解压(&S)
+StopExtraction=您确定要停止解压吗？
+ErrorExtractionAborted=解压已中止
+ErrorExtractionFailed=解压失败：%1
 
 ; *** 压缩文件解压失败详情
 ArchiveIncorrectPassword=压缩文件密码不正确
