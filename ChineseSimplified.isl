@@ -387,7 +387,7 @@ OnlyAdminCanUninstall=仅使用管理员权限的用户能完成此卸载。
 UninstallStatusLabel=正在从您的计算机中移除 %1，请稍候。
 UninstalledAll=已顺利从您的计算机中移除 %1。
 UninstalledMost=%1 卸载完成。%n%n有部分内容未能被删除，但您可以手动删除它们。
-UninstalledAndNeedsRestart=为完成 %1 的卸载，需要重启您的计算机。%n%n立即重启计算机吗？
+UninstalledAndNeedsRestart=为完成 %1 的卸载，需要重启您的计算机。%n%n要立即重启吗？
 UninstallDataCorrupted=文件“%1”已损坏。无法卸载
 
 ; *** Uninstallation phase messages
