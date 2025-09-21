@@ -255,7 +255,7 @@ ApplicationsFound2=以下应用程序正在使用将由安装程序更新的文�
 CloseApplications=自动关闭应用程序(&A)
 DontCloseApplications=不要关闭应用程序(&D)
 ErrorCloseApplications=安装程序无法自动关闭所有应用程序。建议您在继续之前，关闭所有在使用需要由安装程序更新的文件的应用程序。
-PrepareToInstallNeedsRestart=安装程序必须重启您的计算机。计算机重启后，请再次运行安装程序以完成 [name] 的安装。%n%n是否立即重新启动？
+PrepareToInstallNeedsRestart=安装程序必须重启您的计算机。计算机重启后，请再次运行安装程序以完成 [name] 的安装。%n%n要立即重启吗？
 
 ; *** "Installing" wizard page
 WizardInstalling=正在安装
