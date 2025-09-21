@@ -10,8 +10,9 @@
 ;
 ; Maintainer: Zhenghan Yang (Kira)
 ; Email: 847320916@QQ.com
-; Encoding: UTF-8
 ; Github: https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation
+; Encoding: UTF-8
+; Translation based on network resource
 ;
 
 [LangOptions]
