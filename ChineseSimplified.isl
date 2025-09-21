@@ -248,7 +248,7 @@ ArchiveUnsupportedFormat=不支持的压缩包格式
 ; *** "Preparing to Install" wizard page
 WizardPreparing=正在准备安装
 PreparingDesc=安装程序正在准备安装 [name] 到您的计算机。
-PreviousInstallNotCompleted=先前的程序安装或卸载未完成，您需要重启您的计算机以完成。%n%n在重启计算机后，再次运行安装程序以完成 [name] 的安装。
+PreviousInstallNotCompleted=先前的程序安装或卸载未完成，需要您重启计算机。%n%n在重启计算机后，再次运行安装程序以完成 [name] 的安装。
 CannotContinue=安装程序不能继续。请点击“取消”退出。
 ApplicationsFound=以下应用程序正在使用将由安装程序更新的文件。建议您允许安装程序自动关闭这些应用程序。
 ApplicationsFound2=以下应用程序正在使用将由安装程序更新的文件。建议您允许安装程序自动关闭这些应用程序。安装完成后，安装程序将尝试重新启动这些应用程序。
